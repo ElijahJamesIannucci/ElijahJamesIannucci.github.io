@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.07604e77.css",
-    "main.js": "/static/js/main.14a6af6f.js",
+    "main.css": "/static/css/main.bfe2c0b4.css",
+    "main.js": "/static/js/main.2122c754.js",
     "static/js/787.bfd05018.chunk.js": "/static/js/787.bfd05018.chunk.js",
+    "static/media/DC-Comics.woff2": "/static/media/DC-Comics.a4e38433ae7b048e5cef.woff2",
+    "static/media/DC-Comics.otf": "/static/media/DC-Comics.8ba7d89f4858d9b77c10.otf",
+    "static/media/DC-Comics.ttf": "/static/media/DC-Comics.5daff34efd1c1e672a85.ttf",
+    "static/media/DC-Comics.woff": "/static/media/DC-Comics.da4d9c38445d5baf5d95.woff",
+    "static/media/Hero.woff2": "/static/media/Hero.6fab8b0fb35847c25bcf.woff2",
+    "static/media/Hero.ttf": "/static/media/Hero.a87fc3e02aebd8557dc1.ttf",
+    "static/media/Hero.otf": "/static/media/Hero.7d1d2ec6c320c39baa8a.otf",
+    "static/media/Hero.woff": "/static/media/Hero.472d67fbfd913ebd3bab.woff",
     "index.html": "/index.html",
-    "main.07604e77.css.map": "/static/css/main.07604e77.css.map",
-    "main.14a6af6f.js.map": "/static/js/main.14a6af6f.js.map",
+    "main.bfe2c0b4.css.map": "/static/css/main.bfe2c0b4.css.map",
+    "main.2122c754.js.map": "/static/js/main.2122c754.js.map",
     "787.bfd05018.chunk.js.map": "/static/js/787.bfd05018.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07604e77.css",
-    "static/js/main.14a6af6f.js"
+    "static/css/main.bfe2c0b4.css",
+    "static/js/main.2122c754.js"
   ]
 }
