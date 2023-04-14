@@ -21,9 +21,9 @@
 
 .nav-color {
   background: blueviolet;
-  background: -moz-linear-gradient(342deg, #8a2be2 0%, rgba(27, 181, 236, 0.895) 69%);
-  background: -webkit-linear-gradient(342deg, blueviolet 0%, rgba(27, 181, 236, 0.895418) 69%);
-  background: linear-gradient(342deg, blueviolet 0%, rgba(27, 181, 236, 0.895418) 69%);
+  background: -moz-linear-gradient(342deg, #39b2de 0%, rgba(27, 181, 236, 0.895) 29%);
+  background: -webkit-linear-gradient(342deg, #39b2de 0%, rgba(27, 181, 236, 0.895418) 29%);
+  background: linear-gradient(342deg, #39b2de 0%, rgba(27, 181, 236, 0.895418) 29%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8a2be2", endColorstr="#1bb5ec", GradientType=1); }
 
 navbar-toggler.collapsed, button, .navbar-toggler {
