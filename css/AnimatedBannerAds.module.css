@@ -1,0 +1,115 @@
+.banner {
+  position: relative; }
+  .banner button {
+    background-color: #aae9ef !important;
+    border: none;
+    border-radius: 0.5rem; }
+  .banner.topRadius728 {
+    width: 728px;
+    height: 90px;
+    color: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid black;
+    margin: 1rem auto;
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: 0 4px 2px -2px gray;
+    overflow: hidden;
+    position: relative; }
+  .banner.noRadius728 {
+    width: 728px;
+    height: 90px;
+    background-color: #007CBC;
+    color: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 0;
+    margin: 1rem auto;
+    box-shadow: 0 4px 2px -2px gray;
+    overflow: hidden; }
+  .banner.bottomRadius728 {
+    width: 728px;
+    height: 90px;
+    background-color: #007CBC;
+    color: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 0 0 1rem 1rem;
+    margin: 1rem auto;
+    box-shadow: 0 4px 2px -2px gray;
+    overflow: hidden; }
+  .banner.bannerWidth300 {
+    width: 300px;
+    height: 250px;
+    background-color: 007CBC;
+    color: #fff;
+    display: felx;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    margin: 1rem auto;
+    box-shadow: 0 4px 2px -2px gray;
+    position: relative; }
+    .banner.bannerWidth300 .animated-text {
+      background-image: url("https://images.theconversation.com/files/379516/original/file-20210119-15-tmyvf4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop");
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 0.5rem;
+      position: absolute;
+      border-top: 1px solid #fff;
+      display: felx;
+      justify-content: center;
+      align-items: center; }
+    .banner.bannerWidth300 .text {
+      color: #fff;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: left;
+      align-items: center; }
+    .banner.bannerWidth300 .bodyTxt {
+      font-size: 1.5rem;
+      color: #fff;
+      line-height: 1.25rem; }
+      .banner.bannerWidth300 .bodyTxt p {
+        font-size: 1rem;
+        padding-left: 0; }
+    .banner.bannerWidth300 .btn-pin-right {
+      height: 100%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .banner.bannerWidth300 .repeat-btn {
+      margin: .25rem; }
+  .banner.bannerWidth160 {
+    width: 160px;
+    height: 600px;
+    background-color: #007CBC;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    margin: 1rem auto;
+    box-shadow: 0 4px 2px -2px gray; }
+  .banner.gradient1 {
+    background: #1fd0e2;
+    background: -moz-linear-gradient(90deg, #1fd0e2 0%, #007cbc 100%);
+    background: -webkit-linear-gradient(90deg, #1fd0e2 0%, #007cbc 100%);
+    background: linear-gradient(90deg, #1fd0e2 0%, #007cbc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1fd0e2", endColorstr="#007cbc", GradientType=1); }
+  .banner .text {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    white-space: nowrap; }
+  .banner .btn-pin-right {
+    display: flex;
+    justify-content: right;
+    align-items: center; }
