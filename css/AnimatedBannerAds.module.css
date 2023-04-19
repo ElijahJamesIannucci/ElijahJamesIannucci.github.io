@@ -166,14 +166,8 @@
       position: absolute;
       left: 45%;
       z-index: 2; }
-    .banner.bottomRadius728 .btn-pin-right {
-      height: 100%;
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
     .banner.bottomRadius728 button {
-      z-index: 3; }
+      z-index: 4; }
     .banner.bottomRadius728 .text {
       z-index: 3; }
     .banner.bottomRadius728 .text2 {
