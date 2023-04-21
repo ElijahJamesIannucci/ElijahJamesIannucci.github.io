@@ -43,7 +43,7 @@
   width: 70px;
   height: 70px;
   background-color: transparent;
-  z-index: 2; }
+  z-index: 20000; }
   .fire p {
     color: darkblue;
     font-family: 'Courier New', Courier, monospace;
@@ -54,7 +54,7 @@
     font-size: 1rem;
     padding-top: 1rem;
     text-align: center;
-    z-index: 1000; }
+    z-index: 6; }
 
 .fire-center {
   position: absolute;
