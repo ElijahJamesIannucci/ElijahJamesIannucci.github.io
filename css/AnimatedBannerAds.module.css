@@ -13,7 +13,10 @@
     position: relative;
     display: flex;
     justify-content: right;
-    align-items: center; }
+    align-items: center;
+    z-index: 3;
+    position: absolute;
+    right: 2px; }
   .banner.gradient1 {
     background: #1fd0e2;
     background: -moz-linear-gradient(90deg, #1fd0e2 0%, #007cbc 100%);
@@ -64,7 +67,8 @@
       position: absolute;
       left: 45%;
       z-index: 1;
-      position: relative; }
+      position: relative;
+      display: none; }
     .banner.topRadius728 .final-text {
       width: 100%;
       position: absolute;
@@ -75,14 +79,6 @@
       z-index: 1000;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 1.5rem; }
-    .banner.topRadius728 .btn-pin-right {
-      z-index: 3;
-      height: 100%;
-      position: absolute;
-      right: 2px;
-      display: flex;
-      justify-content: right;
-      align-items: center; }
     .banner.topRadius728 .text {
       position: relative;
       z-index: 1; }
@@ -123,8 +119,6 @@
       position: absolute;
       left: 75%;
       z-index: 1; }
-    .banner.noRadius728 .btn-pin-right {
-      z-index: 3; }
     .banner.noRadius728 .text {
       position: relative;
       z-index: 1; }
@@ -225,23 +219,30 @@
     border: 2px solid #000;
     box-shadow: 0 4px 2px -2px gray;
     margin: auto;
-    position: relative; }
+    position: relative;
+    overflow: hidden; }
     .banner.bannerWidth160 h1 {
       font-family: 'Courier New', Courier, monospace;
       font-size: 4rem;
       font-weight: bold;
       color: #51838e;
       padding-left: .5rem; }
+    .banner.bannerWidth160 h2 {
+      font-size: 1rem; }
+    .banner.bannerWidth160 ul {
+      padding-left: 1rem; }
     .banner.bannerWidth160 .animated-panel {
       background-color: #fff;
       color: #000;
       width: 100%;
       height: 280px;
       padding: .5rem;
-      border-top: 1px solid red;
+      border-top: 1px solid #000;
       position: absolute;
-      bottom: 0; }
-      .banner.bannerWidth160 .animated-panel h2 {
-        font-size: 1rem; }
-      .banner.bannerWidth160 .animated-panel ul {
-        padding-left: 1rem; }
+      bottom: 0;
+      overflow: hidden;
+      background: #22c1c3;
+      background: -moz-linear-gradient(0deg, #22c1c3 0%, #2db1fd 100%);
+      background: -webkit-linear-gradient(0deg, #22c1c3 0%, #2db1fd 100%);
+      background: linear-gradient(0deg, #22c1c3 0%, #2db1fd 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#2db1fd",GradientType=1); }
