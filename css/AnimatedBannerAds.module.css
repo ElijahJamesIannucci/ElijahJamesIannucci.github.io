@@ -199,8 +199,10 @@
       bottom: 0; }
       .banner.bannerWidth300 .animated-text button {
         white-space: nowrap;
-        color: #000;
-        margin: 0.5rem; }
+        color: #3156a1;
+        margin: 0.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold; }
     .banner.bannerWidth300 .text {
       display: flex;
       justify-content: left;
@@ -213,7 +215,8 @@
         font-size: 1rem;
         padding-left: 0; }
     .banner.bannerWidth300 .top-bg {
-      background-color: plum; }
+      background-color: plum;
+      overflow: hidden; }
   .banner.bannerWidth160 {
     width: 160px;
     height: 600px;
