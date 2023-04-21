@@ -8,12 +8,6 @@
     position: relative;
     z-index: 2;
     font-weight: bold; }
-  .banner button {
-    background-color: #b3ed90 !important;
-    border: 1px solid black;
-    border-radius: 0.5rem;
-    padding: 0.25rem;
-    box-shadow: 0 2px 2px 1px #79768b; }
   .banner .btn-pin-right {
     height: 100%;
     position: relative;
@@ -188,33 +182,38 @@
     position: relative;
     background-image: url("https://images.theconversation.com/files/379516/original/file-20210119-15-tmyvf4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop");
     background-size: auto;
-    background-position: center center;
-    background-attachment: fixed;
+    background-position: bottom;
     background-blend-mode: normal;
     background-repeat: round;
     overflow: hidden; }
     .banner.bannerWidth300 .animated-text {
-      padding: .5rem;
-      border-top: 1px solid #4c0e0e;
+      padding: 0.5rem;
+      border-top: 1px solid #000;
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100%;
-      height: 100%; }
+      height: 10vh;
+      background: #bc64cd;
+      position: absolute;
+      bottom: 0; }
       .banner.bannerWidth300 .animated-text button {
-        margin: 0 .5rem 0 .5rem;
-        width: 70px; }
+        white-space: nowrap;
+        color: #000;
+        margin: 0.5rem; }
     .banner.bannerWidth300 .text {
       display: flex;
       justify-content: left;
       align-items: center; }
     .banner.bannerWidth300 .bodyTxt {
       font-size: 1.5rem;
-      color: #c3bece;
+      color: #fff;
       line-height: 1.25rem; }
       .banner.bannerWidth300 .bodyTxt p {
         font-size: 1rem;
         padding-left: 0; }
+    .banner.bannerWidth300 .top-bg {
+      background-color: plum; }
   .banner.bannerWidth160 {
     width: 160px;
     height: 600px;
