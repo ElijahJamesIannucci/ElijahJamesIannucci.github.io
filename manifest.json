@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Elijah Iannucci's Portfolio",
+  "name": "React based portfolio comprised of animations, API usage and more...",
   "icons": [
     {
       "src": "favicon.ico",
