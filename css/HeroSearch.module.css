@@ -17,14 +17,14 @@
   display: block; }
 
 .herocard h2 {
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .herocard .hero-text {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #000; }
 
 .herocard .sidekick-text {
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 p {
   padding-left: 1rem;

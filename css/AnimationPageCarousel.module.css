@@ -1,0 +1,29 @@
+.carousel-container {
+  background: #00d4ff;
+  background: -moz-linear-gradient(0deg, #00d4ff 0%, #090979 84%);
+  background: -webkit-linear-gradient(0deg, #00d4ff 0%, #090979 84%);
+  background: linear-gradient(0deg, #00d4ff 0%, #090979 84%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00d4ff",endColorstr="#090979",GradientType=1);
+  overflow: hidden; }
+
+.aws-sld {
+  --cube-animation-duration: 675ms;
+  --cube-animation-perspective: 1800px;
+  --cube-animation-ease-in: cubic-bezier(0.8, 0, 1, 0.8);
+  --cube-animation-ease-out: cubic-bezier(0, 0.2, 0.2, 1);
+  --cube-translateZ-distance: -225px; }
+
+.aws-btn {
+  --slider-height-percentage: 60%;
+  --slider-transition-duration: 770ms;
+  --organic-arrow-thickness: 4px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 40px;
+  --organic-arrow-color: #bcd926;
+  --control-button-width: 10%;
+  --control-button-height: 25%;
+  --control-button-background: transparent;
+  --control-bullet-color: #ddff2d;
+  --control-bullet-active-color: #bcd926;
+  --loader-bar-color: #851515;
+  --loader-bar-height: 6px; }

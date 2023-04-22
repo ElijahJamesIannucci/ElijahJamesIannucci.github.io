@@ -24,14 +24,13 @@
 
 .hex-bg {
   background-image: url("https://t4.ftcdn.net/jpg/02/82/16/69/360_F_282166962_G6uiOk6ZMPS7Hn4ztq2YjsLRy2UkuJN1.jpg");
-  background-size: contain;
+  background-size: cover;
   display: flex;
   align-items: center;
   font-size: 1rem;
   text-align: left;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  padding: 1rem;
   position: relative;
   z-index: 1;
   /* font-family: 'Share Tech', sans-serif;
@@ -51,7 +50,9 @@
     font-size: 1.5rem; }
   .hex-bg .tile-desc {
     color: #fff;
-    padding-right: 2rem; }
-  .hex-bg .info-panel {
+    padding-right: 1.25rem; }
+
+  .hex-bg .info-panl {
     background-color: none;
-    width: 100% !important; }
+    width: 100% !important;
+    padding: 1rem 3rem 1rem 1rem; }

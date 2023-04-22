@@ -40,8 +40,8 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   background-color: transparent;
   z-index: 2; }
   .fire p {
@@ -49,9 +49,9 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     position: absolute;
-    left: -16px;
+    left: -15px;
     line-height: 1rem;
-    font-size: 1rem;
+    font-size: .75rem;
     padding-top: 1rem;
     text-align: center;
     z-index: 6; }
